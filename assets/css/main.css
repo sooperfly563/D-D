@@ -1996,7 +1996,6 @@ input, select, textarea {
 		.features section {
 			padding: 3em 3em 1em 1em ;
 			width: 50%;
-			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
 		}
 		.features .last section {
@@ -2004,6 +2003,7 @@ input, select, textarea {
 			width: auto;
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
+			background: rgb(0,0,0);
 		}
 
 			.features section:nth-child(-n + 2) {
@@ -2175,6 +2175,10 @@ input, select, textarea {
 			-ms-transform: scale(0.5);
 			transform: scale(0.5);
 			opacity: 0;
+		}
+		.features img {
+			width: 100%;
+
 		}
 
 		@media screen and (max-width: 980px) {
@@ -2578,12 +2582,6 @@ input, select, textarea {
     	-moz-transition: opacity .55s ease;
     	-webkit-transition: opacity .55s ease;
 	}
-	.card .first:hover {
-		opacity: 0;
-    	transition: opacity .55s ease;
-    	-moz-transition: opacity .55s ease;
-    	-webkit-transition: opacity .55s ease;
-	}
 	.card .img-top {
         position: absolute;
         top: 0;
@@ -2592,13 +2590,6 @@ input, select, textarea {
         max-height: 99vh;
         margin: auto;
         opacity: 0;
-        transition: opacity .55s ease;
-    	-moz-transition: opacity .55s ease;
-    	-webkit-transition: opacity .55s ease;
-    }
-	.card .img-top:hover {
-        display: inline;
-        opacity: 1;
         transition: opacity .55s ease;
     	-moz-transition: opacity .55s ease;
     	-webkit-transition: opacity .55s ease;
@@ -3270,11 +3261,11 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #276176;
+			background-color: #0e5b30;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #276176;
+			background-color: #0e5b30;
 		}
 
 		.wrapper.style2 {
@@ -3286,11 +3277,11 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #3e4094;
+			background-color: #ccbc10;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #ccbc10;
 		}
 
 		.wrapper.fullscreen {
@@ -3554,7 +3545,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #527524;
+		background: #171717;
 		cursor: default;
 		height: 100vh;
 		left: 0;
